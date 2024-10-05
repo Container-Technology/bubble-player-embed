@@ -20,7 +20,7 @@
   .sticker {
 		font-family: monospace;
 		font-size: 0.75em;
-		padding: 0.15em 0.25em;
+		padding: 0.25em;
 		position: absolute;
 		display: flex;
 		right: 0.5em;
@@ -31,6 +31,7 @@
 		background: #fce6f4;
 		color: #000;
 		align-items: start;
+		transition: background linear 0.1s;
   }
 
 	.sticker a {
@@ -42,9 +43,11 @@
 	}
 
 	.certification {
-		width: 2em;
 		height: 2em;
+		width: 2em;
 		display: flex;
+		flex-grow: 0;
+		gap: 0.25em;
 		margin-right: 0.25rem;
 	}
 </style>

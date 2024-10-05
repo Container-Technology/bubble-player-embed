@@ -16,8 +16,9 @@
 	const { right, bottom, angle } = computeStickerPosition('50a036a5-0ae9-4c0e-91f0-a1cd30a00a6a')
 </script>
 
+<Favicon/>
+
 <main>
-	<Favicon/>
 	<Player
 		src={streamURL}
 		title={streamTitle}
@@ -32,5 +33,6 @@
 		position: relative;
 		width: 100%;
 		height: 100%;
+		overflow: hidden;
   }
 </style>
