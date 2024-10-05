@@ -1,6 +1,4 @@
 <script lang="ts">
-	import svelteLogo from './assets/svelte.svg'
-	import viteLogo from '/vite.svg'
 	import Player from './lib/Player.svelte'
 	import Sticker from './lib/Sticker.svelte'
 	import Favicon from './lib/Favicon.svelte'
