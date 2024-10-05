@@ -42,7 +42,7 @@
 		width: 100%;
 		font-family: Helvetica, sans-serif;
 		background: #fff;
-		height: 50px;
+		max-height: 50px;
 	}
 
 	.player:not(.paused) {
